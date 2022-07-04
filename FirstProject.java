@@ -37,7 +37,7 @@ public class FirstProject {
 		
 		WebElement search=driver.findElement(By.xpath("//input[@placeholder='Find your service here']"));
 		Thread.sleep(2000);
-		System.out.println("Searched successfully");
+		System.out.println("Searched successfully");// edited the successfully
 		driver.close();
 		
 			
